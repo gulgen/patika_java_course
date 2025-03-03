@@ -1,4 +1,4 @@
-package Patika_1_Practice;
+package Practices;
 
 import java.util.Scanner;
 

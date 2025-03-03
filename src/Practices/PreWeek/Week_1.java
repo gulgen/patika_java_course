@@ -1,6 +1,6 @@
-package Patika_1_Practice.Hafta1;
+package Practices.PreWeek;
 
-public class Hafta_1 {
+public class Week_1 {
     public static void main(String[] args) {
         //System.out.println("Hello Hafta 1"); TODO
         System.out.println("Hello Hafta 2");
