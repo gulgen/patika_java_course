@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class FlightTicketPriceCalculator {
 
-    public static final double DISTANCE_PRICE = 0.10;
-    public static final int ROUND_TRIP = 2;
+    static double DISTANCE_PRICE = 0.10;
 
     public static void main(String[] args) {
+        int roundTrip = 2;
         double discountedPrice = 0.0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Mesafeyi km türünden giriniz :");
@@ -22,6 +22,10 @@ public class FlightTicketPriceCalculator {
             return;
         }
 
+     if (tripType == 1) System.out.println("TEKYÖN");
+
+        System.out.println(tripType == 1 ? "TEKYÖN" : "ÇİFTYÖN");
+
         double price = distance * DISTANCE_PRICE;
 
         if (age <= 12) {
@@ -32,7 +36,7 @@ public class FlightTicketPriceCalculator {
             discountedPrice = price * 0.70;
         }
 
-        if (tripType == ROUND_TRIP) {
+        if (tripType == roundTrip) {
             discountedPrice = discountedPrice * 0.80 * 2;
         }
 

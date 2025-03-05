@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Javagithub.iml" filepath="$PROJECT_DIR$/Javagithub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patika-java-course.iml" filepath="$PROJECT_DIR$/patika-java-course.iml" />
     </modules>
   </component>
 </project>
