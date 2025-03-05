@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ArithmeticOperations {
     public static void main(String[] args) {
 
-
         Scanner scanner = new Scanner(System.in) ;
 
         System.out.println("Birinci sayıyı girin:");
@@ -18,7 +17,6 @@ public class ArithmeticOperations {
         int c = scanner.nextInt();
 
         int sonuc = (a + b) * (c - b);
-
 
         System.out.println("Sonuç:" + sonuc);
 
