@@ -21,7 +21,5 @@ public class ArithmeticOperations {
         System.out.println("Sonuç:" + sonuc);
 
         scanner.close();
-
-
     }
 }
