@@ -1,4 +1,4 @@
-    package BodyMassIndex;
+    package Week1;
 
     import java.util.Scanner;
 
@@ -17,3 +17,7 @@
             scanner.close();
         }
     }
+
+
+
+
