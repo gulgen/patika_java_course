@@ -1,4 +1,4 @@
-package Week1;
+package ArihtmeticOperations;
 
 import java.util.Scanner;
 
@@ -22,3 +22,4 @@ public class ArithmeticOperations {
         scanner.close();
     }
 }
+
