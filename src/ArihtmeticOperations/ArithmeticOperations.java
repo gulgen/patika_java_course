@@ -16,7 +16,7 @@ public class ArithmeticOperations {
         System.out.println("Üçüncü sayıyı girin:");
         int c = scanner.nextInt();
 
-        int sonuc = (a + b) * (c - b);
+        int sonuc = a + b * c - b;
         System.out.println("Sonuç:" + sonuc);
 
         scanner.close();
