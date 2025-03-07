@@ -22,4 +22,3 @@ public class ArithmeticOperations {
         scanner.close();
     }
 }
-
