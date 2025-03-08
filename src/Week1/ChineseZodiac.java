@@ -12,8 +12,7 @@ public class ChineseZodiac {
         birthYear = scanner.nextInt();
         chineseZodiac = birthYear % 12;
 
-        switch (chineseZodiac)
-        {
+        switch (chineseZodiac) {
             case 0:
                 System.out.println("Çin Zodyağı Burcunuz : Maymun ");
                 break;
@@ -52,6 +51,6 @@ public class ChineseZodiac {
             default:
                 System.out.println("Hatalı Veri Girdiniz!");
 
+        }
     }
-}
 }
