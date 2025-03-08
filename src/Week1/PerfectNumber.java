@@ -11,7 +11,8 @@ public class PerfectNumber {
         int sayi = scanner.nextInt();
 
         int toplam = 0;
-        //1den başlayarak sayı/2ye kadar olan tüm sayıların toplamını hesaplama
+        /**1den başlayarak sayı/2ye kadar olan tüm sayıların toplamını hesapla
+         * (1den başaladığı için kendi değerini almaması için n/2 yapıyoruz */
         for (int i = 1; i <= sayi / 2; i++) {
             int kalan = sayi % i;
             if (kalan == 0) {
