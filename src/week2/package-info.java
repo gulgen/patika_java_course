@@ -1,1 +1,1 @@
-package Week2;
+package week2;
