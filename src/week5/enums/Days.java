@@ -1,4 +1,4 @@
-package week5;
+package week5.enums;
 
 public enum Days {
     SUNDAY(9, 17),

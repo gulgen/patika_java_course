@@ -1,7 +1,6 @@
-package week5;
+package week5.enums;
 
 import java.util.Scanner;
-import static week5.Days.isValidDay;
 
 public class Main {
 
